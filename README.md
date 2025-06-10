@@ -9,16 +9,16 @@ Requested Badge: **Reproduced**
 ## Description
 This artifact provides anonymous survey data and a Python notebook to reproduce the results presented in the paper. 
 
-### Security/Privacy Issues and Ethical Concerns
+## Security/Privacy Issues and Ethical Concerns
 We remove all survey metadata and provide only participants' answers, ensuring that no sensitive data is disclosed. 
 
 ## Basic Requirements
 No special hardware requirements (can run on a local laptop). 
 
-### Software Requirements
+## Software Requirements
 We tested this artifact on MAC but it also can be run on Linux or Window as long as the platforms install Python 3.8.11 (recommended through [pyenv](https://github.com/pyenv/pyenv)) and [Jupyter Notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) (recommended through [VS Code](https://code.visualstudio.com/download)). 
 
-### Estimated Time and Storage Consumption
+## Estimated Time and Storage Consumption
 The survey data (stored in [raw](./raw/)) is around 700KB and running the Python notebook ([artifact.ipynb](artifact.ipynb)) should complete within a few minutes. 
 
 ## Environment 
@@ -43,7 +43,7 @@ curl -fsSL https://pyenv.run | bash
 
 The example above applies to Zsh as a shell. If you use other shells (e.g., Bash, Fish, etc.), please follow these [instructions](https://github.com/pyenv/pyenv?tab=readme-ov-file#b-set-up-your-shell-environment-for-pyenv) to set up your shell environment for pyenv. 
 
-### Testing the Environment
+## Testing the Environment
 
 Now that Python 3.8.11 is installed, we recommend setting up a virtual environment (venv) to install packages required to run the Python notebook. 
 
@@ -61,7 +61,7 @@ Now that the venv is created, make sure to select it (artifact_venv) as your ker
 ## Artifact Evaluation
 Run (click "Run All") the Python notebook ([artifact.ipynb](artifact.ipynb)) to reproduce tables and plots in the paper. 
 
-### Results
+## Results
 We reproduce ALL results presented in the paper. Please refer to the notebook ([artifact.ipynb](artifact.ipynb)) as we specify which code section reproduce which result. 
 
 ## Personal Notes
