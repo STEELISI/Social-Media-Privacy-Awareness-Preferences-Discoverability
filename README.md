@@ -7,7 +7,7 @@ Artifacts HotCRP Id: **#18**
 Requested Badge: **Reproduced**
 
 ## Description
-This artifact provides anonymous survey data and a Python notebook to reproduce the results presented in the paper. 
+This artifact provides anonymous survey data and a Python notebook to reproduce the results presented in the paper. The specific commit at the time of publication is [81bf396](https://github.com/STEELISI/Social-Media-Privacy-Awareness-Preferences-Discoverability/tree/81bf39637d8877b23ab6a881c9941e1013c5a651). 
 
 ## Security/Privacy Issues and Ethical Concerns
 We remove all survey metadata and provide only participants' answers, ensuring that no sensitive data is disclosed. 
